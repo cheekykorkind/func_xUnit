@@ -1,7 +1,7 @@
 version: '3.8'
 services:
-  func_xUnit:
-    container_name: 'func_xUnit'
+  func_xunit:
+    container_name: 'func_xunit'
     user: $DOCKER_UID:$DOCKER_GID
     build:
       context: .
