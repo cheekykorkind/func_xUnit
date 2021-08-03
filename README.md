@@ -1,6 +1,10 @@
 # func_xUnit
 https://xunit.net/docs/getting-started/netcore/cmdline 하기가 목표
 
+## xUnit메모
+- `[Facts]` are tests which are always true. They test invariant conditions.
+- `[Theories]` are tests which are only true for a particular set of data.
+
 ## memo
 ```
 DOCKER_UID=$(id -u $USER) DOCKER_GID=$(id -g $USER) docker-compose up
